@@ -1,0 +1,79 @@
+/* colors */
+:root {
+  --footer-color: #03a9f4;
+  --button-color: #e91e63;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* hero section */
+
+.banner-title {
+  font-size: 50px;
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.text {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* buttons */
+
+.btn {
+  background: var(--button-color);
+  color: white;
+  font-size: 20px;
+  padding: 15px 40px;
+  border: none;
+}
+
+footer {
+  background: var(--footer-color);
+}
+
+form {
+  width: 90%;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  background: transparent;
+  border: none;
+  border-bottom: solid white 2px;
+  padding: 10px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* about and questions section */
+
+.main-headers {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main-text {
+  color: #999999;
+}
+
+.link {
+  color: var(--button-color);
+}
+
+.placeholder {
+  height: 200px;
+  border: solid grey 1px;
+}
