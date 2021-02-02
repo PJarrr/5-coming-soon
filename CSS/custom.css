@@ -91,6 +91,27 @@ footer > p {
 .footer-logo {
   padding-top: 40px;
 }
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .fa {
+  font-size: 25px;
+  padding: 7px;
+  color: white;
+  text-decoration: none;
+}
+
+footer .fa:hover {
+  border-radius: 3em;
+  background: white;
+  color: var(--footer-color);
+  transition: 0.5s;
+}
 .bottom-text2 {
   line-height: 30px;
   max-width: 700px;
