@@ -11,12 +11,6 @@ deadline === ''){
     return false
 }
 
-
-
-
-
-
-
     //logic
     const clockDOM = document.querySelector(selector);
     if(!clockDOM){
