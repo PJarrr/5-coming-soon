@@ -36,7 +36,7 @@ deadline === ''){
 
     clockDOM.innerHTML = HTML;
     allValuesDOM = document.querySelectorAll(`${selector} .value`)
-    console.log(allValuesDOM)
+    // console.log(allValuesDOM)
 
     setInterval(function(){
        numbers = calcTime(deadline);
