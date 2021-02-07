@@ -40,7 +40,7 @@
   line-height: 0;
 }
 
-.value2 {
+/* .value2 {
   margin: 0;
   padding: 0;
   line-height: 0;
@@ -48,7 +48,7 @@
   border: solid #03a9f4 2px;
   padding: 0.5em;
   border-radius: 1em;
-}
+} */
 
 .not-show {
   visibility: hidden;
