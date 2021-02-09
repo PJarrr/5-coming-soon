@@ -1,0 +1,72 @@
+.banner-form {
+  width: 90%;
+  text-align: center;
+}
+
+.banner-input {
+  width: 80%;
+  background: transparent;
+  border: none;
+  border-bottom: solid white 2px;
+  padding: 10px;
+  margin-bottom: 30px;
+  color: grey;
+  font-size: 20px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.message-form {
+  display: inline-block;
+
+  width: 100%;
+}
+.message-form > textarea {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border-bottom: solid grey 1px;
+  padding: 20px 0;
+  resize: vertical;
+  background: transparent;
+  min-height: 50px;
+  max-height: 130px;
+}
+
+.name-email > input {
+  font-size: 16px;
+  line-height: 40px;
+  border: none;
+  border-bottom: solid grey 1px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.message-form > button {
+  display: inline-block;
+  float: right;
+  margin-top: 50px;
+}
+
+@media (min-width: 600px) {
+  .name-email {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name-email > input {
+    width: 45%;
+  }
+  .message-form > input:last-of-type {
+    margin-left: 30px;
+  }
+}
+
+.banner-form > input::placeholder {
+  color: white;
+}

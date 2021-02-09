@@ -22,6 +22,8 @@ body {
   font-size: 20px;
   text-align: center;
   margin: 0;
+  width: 100%;
+  max-width: 600px;
 }
 
 /* buttons */
@@ -34,28 +36,12 @@ body {
   border: none;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background: #dc5783;
+}
 footer {
   background: var(--footer-color);
-}
-
-form {
-  width: 90%;
-  text-align: center;
-}
-
-input {
-  width: 80%;
-  background: transparent;
-  border: none;
-  border-bottom: solid white 2px;
-  padding: 10px;
-  margin-bottom: 30px;
-  color: white;
-  font-size: 20px;
-}
-
-input:focus {
-  outline: none;
 }
 
 /* about and questions section */

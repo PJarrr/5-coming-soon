@@ -38,7 +38,7 @@ footer {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
   font-size: 14px;
@@ -49,14 +49,12 @@ main {
 
 .about-startup {
   width: 95%;
-  height: 300px;
 
   max-width: 700px;
 }
 
 .contact-form {
   width: 95%;
-  height: 300px;
 
   max-width: 700px;
 }
@@ -98,7 +96,7 @@ footer {
 
 @media (min-width: 600px) {
   .banner-container {
-    width: 650px;
+    width: 100%;
   }
   .bottom-text {
     flex-direction: row;
@@ -116,13 +114,13 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: baseline;
+
     padding-top: 50px;
   }
 
   .about-startup {
     width: 40%;
-    height: 300px;
+
     max-width: 600px;
 
     margin-right: 100px;
@@ -131,7 +129,6 @@ footer {
   .contact-form {
     width: 35%;
     max-width: 500px;
-    height: 300px;
   }
 }
 
