@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="./CSS/variables.css">
 <link rel="stylesheet" href="./CSS/reset.css">
 <!-- 3rd party -->
+<link rel="stylesheet" href="./CSS/font-awesome.min.css">
 <!-- components -->
 <link rel="stylesheet" href="./CSS/layout.css">
 <link rel="stylesheet" href="./CSS/mouse.css">
@@ -35,36 +36,94 @@
             <div class="clock">
                 <h1>22:22:59</h1>
             </div>
-            <form action="e">
-                <input class="banner-input" type="email" name="email" id="email-input">
+            <form class="banner-form form" action="e">
+                <input placeholder="Type your email" class="banner-input" type="email" name="email" id="email-input">
+                <button class="btn" >Subscribe Now</button>
             </form>
-            <button class="btn" >Subscribe Now</button>
-            <div class="mouse"></div>
+            
+            <div class="mouse">
+                <div class="wheel">`</div>
+            </div>
 
         </div>
     
     </section>
     <main>
-        <div class="about-startup">
+         
+        <div class="about-startup"> 
             <h2 class="main-headers" >About startup</h2>
             <p class="main-text">Matrox material design multi-purpose html template. It comes with huge content and background variants. <a class="link" href="#">Matrox</a> is coming
             very soon. We are nearly there</p>
-            <div class="placeholder"></div>
+            <!--progress baras  -->
+            <!-- <div class="progress-bar">
+                <div class="texts">
+                    <div class="bar-label"></div>
+                    <div class="bar-value"></div>
+                </div>
+                <div class="bar">
+                    <div class="progress"></div>
+                </div>
+            </div> -->
         </div>
         <div class="contact-form">
             <h2 class="main-headers">Have any questions?</h2>
             <p class="main-text">You can use contact form below or contact us via e-mail at: <a  class="link" href="#">comingsoon@email.com</a>
                 Contact form is fully working and
             very easy to customize.</p>
-            <div class="placeholder">
-                <h1>Lorem ipsum dolor sit amet.</h1>
+            <form class="message-form form" action="">
+                <div class="name-email">
+                <input type="text" placeholder="Name" required> 
+                <input type="email" placeholder="Email" required>
             </div>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send message</button>
+            </form>
         </div>
 
     </main>
 
     <footer>
 
+        <div class="socials">
+            <!-- <a href="" target="_blank" class="fa fa-facebook-official"></a>
+            <a href="" target="_blank" class="fa fa-git"></a>
+            <a href="" target="_blank" class="fa fa-linkedin"></a>
+            <a href="" target="_blank" class="fa fa-twitter"></a>
+            <a href="" target="_blank" class="fa fa-youtube-play"></a>
+            <a href="" target="_blank" class="fa fa-pinterest"></a>
+            <a href="" target="_blank" class="fa fa-rss"></a>
+            <a href="" target="_blank" class="fa fa-car"></a>
+            <a href="" target="_blank" class="fa fa-pen"></a>
+            <a href="" target="_blank" class="fa fa-pencil"></a>
+            <a href="" target="_blank" class="fa fa-cloud"></a>
+            <a href="" target="_blank" class="fa fa-box"></a>
+            <a href="" target="_blank" class="fa fa-paw"></a>
+ -->
+
+        </div>
+        
+        <div class="footer-content">
+            <img class="footer-logo" src="/img/logo-white.png" alt="logo Matrox">
+            <div class="bottom-text">
+            <p>Copyright © 2016 Matrox</p>
+            <p id="bordered">All Rights Reserved</p>
+            <p>Designed By TrendyTheme</p>
+</div>
+
+
+            <p class="bottom-text2">Matrox pack includes complete websites not just homepages, it comes with full website demos. Over 200+ ready html files
+            only for 17$. Purchase Matrox Now!</p>
+
+
+
+
+        </div>
+
     </footer>
+
+
+
+    <script src="/js/main.js" type='module'></script>
+
 </body>
 </html>
